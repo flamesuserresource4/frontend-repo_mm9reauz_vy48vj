@@ -25,8 +25,9 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <Navbar />
-      <Home />
+      {/* Move About in front of stats and current competitions */}
       <AboutBatik />
+      <Home />
       <Contact />
       <Footer />
     </div>
